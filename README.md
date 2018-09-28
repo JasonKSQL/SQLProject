@@ -139,14 +139,23 @@ Gender nvarchar (20),
 DepartmentId int)
 
 INSERT INTO tblEmployee (Id, Name, Gender, DepartmentId) VALUES (1, 'Sam', 'Male', 1)
+
 INSERT INTO tblEmployee (Id, Name, Gender, DepartmentId) VALUES (2, 'Ryan', 'Male', 1)
+
 INSERT INTO tblEmployee (Id, Name, Gender, DepartmentId) VALUES (3, 'Sara', 'Female', 2)
+
 INSERT INTO tblEmployee (Id, Name, Gender, DepartmentId) VALUES (4, 'Todd', 'Male', 2)
+
 INSERT INTO tblEmployee (Id, Name, Gender, DepartmentId) VALUES (5, 'John', 'Male', 3)
+
 INSERT INTO tblEmployee (Id, Name, Gender, DepartmentId) VALUES (6, 'Sana', 'Female', 2)
+
 INSERT INTO tblEmployee (Id, Name, Gender, DepartmentId) VALUES (7, 'James', 'Male', 1)
+
 INSERT INTO tblEmployee (Id, Name, Gender, DepartmentId) VALUES (8, 'Rob', 'Male', 2)
+
 INSERT INTO tblEmployee (Id, Name, Gender, DepartmentId) VALUES (9, 'Steve', 'Male', 1)
+
 INSERT INTO tblEmployee (Id, Name, Gender, DepartmentId) VALUES (10, 'Pam', 'Female', 2)
 
 SELECT * FROM tblEmployee
