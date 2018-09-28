@@ -3,6 +3,8 @@ SQL Project and Querying
 
 --Here some querying on creating table, stored procedures, and constraints
 
+--Check back for updates
+
 USE [AdventureWorks2012]
 GO
 
