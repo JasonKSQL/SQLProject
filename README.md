@@ -10,28 +10,43 @@ Create Database TrainPassenger
 
 CREATE TABLE Train
 (TrainID int Primary Key,
+
 TrainName varchar (50),
+
 SourceLocation varchar (50),
+
 DestinationLocation varchar (50),
+
 DepartureDate date,
+
 DepartureTime time)
 
 SELECT * FROM Train
 
 
 INSERT INTO Train VALUES ( 1, 'Train 1', 'Raleigh', 'Toledo', '09-24-2018', '6:15:00 PM')
+
 INSERT INTO Train VALUES ( 2, 'Train 2', 'Detroit', 'Chicago','09-23-2018', '3:15:00 PM')
+
 INSERT INTO Train VALUES ( 3, 'Train 3', 'Raleigh', 'Toledo', '09-23-2018', '4:15:00 PM')
+
 INSERT INTO Train VALUES ( 4, 'Train 4', 'Atlanta', 'Austin', '09-28-2018', '2:15:00 PM')
+
 INSERT INTO Train VALUES ( 5, 'Train 5', 'Raleigh', 'Orlando', '09-30-2018', '1:15:00 PM')
 
 
 --This is the result I get
---TrainID  TrainName	SourceLocation	  DestinationLocation	   DepartureDate	DepartureTime
---1	       Train 1		Raleigh		        Toledo			           2018-09-24   	06:15:00.00
+
+--TrainID       TrainName	SourceLocation	  DestinationLocation	   DepartureDate	DepartureTime
+
+--1	            Train 1		Raleigh		        Toledo			           2018-09-24   	06:15:00.00
+
 --2	       Train 2		Detroit		        Chicago		             2018-09-23	    06:15:00.00
+
 --3	       Train 3		Raleigh		        Toledo			           2018-09-23	    06:15:00.00
+
 --4	       Train 4		Atlanta		        Austin			           2018-09-28	    06:15:00.00
+
 --5	       Train 5		Raleigh		        Orlando		             2018-09-30	    06:15:00.00
 
 
