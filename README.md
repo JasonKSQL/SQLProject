@@ -41,13 +41,13 @@ INSERT INTO Train VALUES ( 5, 'Train 5', 'Raleigh', 'Orlando', '09-30-2018', '1:
 
 --1	            Train 1		Raleigh		        Toledo			           2018-09-24   	06:15:00.00
 
---2	       Train 2		Detroit		        Chicago		             2018-09-23	    06:15:00.00
+--2	            Train 2		Detroit		        Chicago		             2018-09-23	    06:15:00.00
 
---3	       Train 3		Raleigh		        Toledo			           2018-09-23	    06:15:00.00
+--3	            Train 3		Raleigh		        Toledo			           2018-09-23	    06:15:00.00
 
---4	       Train 4		Atlanta		        Austin			           2018-09-28	    06:15:00.00
+--4	            Train 4		Atlanta		        Austin			           2018-09-28	    06:15:00.00
 
---5	       Train 5		Raleigh		        Orlando		             2018-09-30	    06:15:00.00
+--5	            Train 5		Raleigh		        Orlando		             2018-09-30	    06:15:00.00
 
 
 CREATE TABLE Passenger
@@ -151,7 +151,9 @@ ORDER BY TrainID
 
 --TrainID 	TicketNumber
 --	1	      T1
+
 --	1	      T13
+
 --	1	      T5
 --	2	      T2
 --	2	      T10
