@@ -4,6 +4,8 @@ SQL Project and Querying
 
 --Check back for updates
 
+--I am working on the formatting.  It is not coming out right.
+
 SQL Train and Passenger Project
 
 Create Database TrainPassenger
@@ -36,6 +38,9 @@ INSERT INTO Train VALUES ( 5, 'Train 5', 'Raleigh', 'Orlando', '09-30-2018', '1:
 
 
 --This is the result I get
+
+
+
 
 --TrainID       TrainName	SourceLocation	  DestinationLocation	   DepartureDate	DepartureTime
 
