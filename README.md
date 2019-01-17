@@ -1,10 +1,9 @@
 # SQLProject
-SQL Project and Querying
-
+SQL train and passenger schedule mini project
 
 --Check back for updates
 
---I am working on the formatting.  It is not coming out right.
+--I am working on the formatting.  
 
 SQL Train and Passenger Project
 
