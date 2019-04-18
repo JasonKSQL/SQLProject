@@ -41,17 +41,13 @@ INSERT INTO Train VALUES ( 5, 'Train 5', 'Raleigh', 'Orlando', '09-30-2018', '1:
 
 
 
---TrainID       TrainName	SourceLocation	  DestinationLocation	   DepartureDate	DepartureTime
-
---1	            Train 1		Raleigh		        Toledo			           2018-09-24   	06:15:00.00
-
---2	            Train 2		Detroit		        Chicago		             2018-09-23	    06:15:00.00
-
---3	            Train 3		Raleigh		        Toledo			           2018-09-23	    06:15:00.00
-
---4	            Train 4		Atlanta		        Austin			           2018-09-28	    06:15:00.00
-
---5	            Train 5		Raleigh		        Orlando		             2018-09-30	    06:15:00.00
+|TrainID|TrainName|SourceLocation| DestinationLocation|DepartureDate|DepartureTime|
+|:------|:--------|:-------------|:-------------------|:------------|:------------|                                                                            
+| 1	    | Train 1|  Raleigh		 |     Toledo			    |  2018-09-24   | 06:15:00.00 |
+| 2	    |Train 2 |  Detroit		 |     Chicago		    |  2018-09-23	  | 06:15:00.00 |
+| 3     |Train 3 |	Raleigh		 |     Toledo			    |  2018-09-23	  | 06:15:00.00 |
+| 4	    |Train 4 |	Atlanta		 |     Austin			    |  2018-09-28	  | 06:15:00.00 |
+| 5	    |Train 5 |	Raleigh		 |     Orlando		    |  2018-09-30	  | 06:15:00.00 | committ
 
 
 CREATE TABLE Passenger
@@ -86,10 +82,11 @@ INSERT INTO Passenger VALUES ( 4, 'p11', 'Larry', 'A11', 'T11', 900)
 INSERT INTO Passenger VALUES ( 5, 'p12', 'Bill', 'A12', 'T12', 560)
 INSERT INTO Passenger VALUES ( 1, 'p13', 'Megan', 'A13', 'T13', 600)
 
---This is the result I get
---TrainID 	PassengerID 	PName 		SeatNumber 	 TicketNumber 		Fare
---	1	      p1		        John		  A1		        T1			        400
---	2	      p10		        Michelle	A10		        T10			        800
+--This is my result
+|TrainID | 	|PassengerID| 	|PName |		|SeatNumber| 	 |TicketNumber |	|Fare|
+|:-------|:-------------|:---------|:--------------|:----------------|:------|
+|1       |	    p1		  |   John	 |	  A1		     |   T1			       | 400   |
+|2       |	    p10		  |  Michelle|	  A10		     |   T10			     | 800   |
 --	4	      p11		        Larry		  A11		        T11			        900
 --	5	      p12		        Bill		  A12		        T12			        560
 --	1	      p13		        Megan		  A13		        T13			        600
